@@ -1,0 +1,23 @@
+/*grid style section*/
+.grid-container{ width:90%; margin:auto; border:1px solid #C6CDDD; margin-top:15px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px;}
+.grid-container table{border:0px solid;}
+.grid-filter{border:0px solid; width:90%; background:#D0DEF0;}
+#grid-filter-field{width:100%; background:url(../img/bg_grid.gif) repeat-x; padding:5px 0px; text-indent:5px; font-weight:bold;}
+.grid-filter #form-field{padding:1px; border-bottom:0px solid #FFFFFF; background:#D0DEF0;} 
+.grid-filter #form-field #form-field-label, #form-field #form-field-object, #form-field #form-field-required{display:inline-block; padding:1px;}
+.grid-filter #form-field #form-field-label{width:20%;}
+.grid-header{text-align:center; padding:5px; background:url(../img/bg_grid.gif) repeat-x; border-bottom:#CCC 1px dotted; border-right:#CCC 1px dotted;}
+.grid-header a:link, .grid-header a:active, .grid-header a:visited{color:#000; text-decoration:none;}
+.grid-container .sorted{font-weight:bold;}
+.grid-container .selected .grid-cell{background:#D0DEF0;}
+.grid-container .grid-cell{background:#FFF; border-bottom:#CCC 1px dotted; border-right:#CCC 1px dotted; padding:4px; cursor:pointer;}
+.grid-container .grid-functions-container{width:100%; background:url(../img/bg_grid.gif) repeat-x; padding:5px 0px; text-indent:5px; height:25px;}
+.grid-container .grid-footer-items{background:url(../img/bg_grid.gif) repeat-x;}
+.grid-container .grid-footer-items a img{border:none;padding:4px 4px 2px 4px;}
+.grid-container .grid-footer-items .grid-footer-info{height:16px;}
+.filter-show-button{cursor:pointer; padding:3px 3px 1px 3px;}
+.filter-show-button:hover{border:1px dotted #CCC; padding:2px 2px 0px 2px; background:#E8E8E8;}
+.child-show-button{cursor:pointer; padding:3px 3px 1px 3px;}
+.child-show-button:hover{border:1px dotted #CCC; padding:2px 2px 0px 2px; background:#E8E8E8;}
+.grid-child-row{display:none; background:#D0DEF0;}
+.grid-functions #form-field{background:#D0DEF0;} 

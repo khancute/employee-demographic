@@ -1,0 +1,6 @@
+.dashboard-grid{width:95%;}
+.dashboard-grid .grid-title{text-align:center; color:#3E576F; font-size:16px; padding:4px;}
+.dashboard-grid .grid-header td{background:#136DA6; color:#FFFFFF; padding:4px; text-align:center;}
+.dashboard-grid .grid-row td{text-align:center; padding:4px; border-bottom:#3E576F 1px solid;}
+.dashboard-grid .grid-row-even{background:#D0DEF0;}
+.dashboard-grid .grid-row-odd{background:#BDD2FF;}

@@ -1,0 +1,147 @@
+body{
+
+  margin:0;
+
+  padding:86px 0 0px 0;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size:12px;
+  background:#DEE7F6;
+
+ }
+
+ div#header{
+
+  position:absolute;
+
+  top:0;
+
+  left:0;
+
+  width:100%;
+
+  height:80px;
+  
+  z-index:10;
+
+ }
+ 
+ #header #app-title{
+
+  height:50px;
+
+ }
+ 
+ #header #app-nav{
+
+	height:30px;
+	border-color:#a9bfd3;
+	border-style:solid;
+	border-width:0 0 1px 0;
+	padding:2px;
+    background:#d0def0 ;
+	padding-top:4px;
+	padding-left:21%;
+
+ }
+ 
+ #header #app-title #app-notification{
+	float:right;
+	display:inline; 
+	font-size:11px;
+	color:#15428B;
+	font-weight:bolder;
+ }
+ #header #app-title #app-logo{
+	display:inline; 
+ }
+
+ div#footer{
+
+  position:absolute;
+
+  bottom:0;
+
+  left:0;
+
+  width:100%;
+
+  height:20px;
+
+ }
+ 
+ div#content #west-section, div#content #center-section, div#content #east-section
+ {
+	display:inline-table; 
+	padding:5px;
+	border:#a9bfd3 1px solid;
+	margin:5px 2px;
+	overflow:auto;
+	
+ }
+ #west-section
+ {
+	width:20%; 
+	background:url(../img/toolbar-bg.png) repeat-x;
+	min-height:420px;
+ }
+ #center-section
+ {
+	width:62%; 
+	position:inherit;
+	left:21.5%;
+	background:url(../img/toolbar-bg.png) repeat-x;
+	min-height:420px;
+	overflow:auto;
+ }
+ #east-section
+ {
+	width:13.5%; 
+	position:inherit;
+	left:85%;
+	background:url(../img/toolbar-bg.png) repeat-x;
+	min-height:420px;
+ }
+
+ @media screen{
+
+  body>div#header{
+
+   position:fixed;
+   background:#DEE7F6;
+
+  }
+
+  body>div#footer{
+
+   position:fixed;
+   background:#F1F2F4;
+   border-top:1px solid #ccccff;
+
+  }
+
+ }
+
+ * html body{
+
+  overflow:hidden;
+  
+
+ } 
+
+ div#content{
+
+  height:100%;
+  vertical-align:top;	
+  overflow:auto;
+  background:#DEE7F6;
+
+ }
+ 
+	/*form style section*/
+	#form-field{padding:8px; border-bottom:1px solid #999;}
+	#form-field #form-field-label, #form-field #form-field-object, #form-field #form-field-required{display:inline-block; padding:4px;}
+	#form-field #form-field-label{width:35%;}
+	#form-field #form-field-required{font-size:16px; color:#F00;}
+	
+	
+	
